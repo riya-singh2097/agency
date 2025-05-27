@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Epilogue", sans-serif;
+}
+/* body {
+  overflow-x: hidden;
+} */
+
+.mt2rem{
+    margin-top: 2rem;
+}
+.dark-btn{
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 15px 25px;
+    background-color: transparent;
+    text-transform:uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.orange-text{
+    line-height: 32px;
+    text-transform:uppercase;
+    color: rgba(239, 109, 88, 1);
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.text-light-grey{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.orange-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(239, 109, 88, 1);
+}
+.mt2rem{
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: 800;
+}
+.white-btn{
+    color: rgba(57, 20, 0, 1);
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.068) 0px 6px 10px -2px, rgba(0, 0, 0, 0.112) 0px 3px 7px -3px;
+}
+.light-brown-text{
+    color: rgba(57, 20, 0, 0.64);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+.brown-small-text{
+    color: rgba(57, 20, 0, 1);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.h1-brown-text{
+    color: rgba(57, 20, 0, 1);
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+.h3-light-brown{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+    color: rgba(57, 20, 0, 1);
+}
+.h4-brown-text{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgba(57, 20, 0, 1);
+}

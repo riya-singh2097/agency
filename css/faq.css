@@ -1,0 +1,70 @@
+.faq-container{
+    background-color: rgba(253, 240, 233, 1);
+    padding: 3rem 8rem;
+    display: grid;
+    grid: 1fr/ 1fr 1fr;
+}
+
+.left-faq-container ,.right-faq-container{
+    padding: 3rem;
+}
+
+
+.faq-question-wrapper{
+      border: 1px solid rgba(243, 209, 191, 1);
+      padding: 2rem;
+    }
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-question-wrapper  .up-down-btn{
+    width: 32px;
+    height: 32px;
+}
+.faq-question-wrapper .up-btn{
+    background-image: url("../asserts/up.png");
+}
+.faq-question-wrapper .down-btn{
+    background-image: url("../asserts/down.png");
+}
+
+.map{
+    background-image: url("../asserts/map.png");
+    height: 100vh;
+    width: 100%;
+  display: grid;
+    grid: 1fr/ 1fr 1fr;
+    
+}
+.left-map-container, .right-map-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+.get-in-touch-form-container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   background-color: rgba(255, 255, 255, 1);
+   width: 100%;
+border-radius:5px ;
+
+}
+.get-in-touch-form-container > input{
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(243, 209, 191, 1);
+    border-radius:5px ;
+    color: rgba(239, 109, 88, 1);
+    outline: none;
+    font-size: 16px;
+    line-height: 32px;
+}
+#message-input{
+    padding: 1rem 1rem 3rem 1rem;
+}
+.get-in-touch-form-container > button{
+    align-self: flex-end;
+}

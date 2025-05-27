@@ -1,0 +1,103 @@
+
+.hero-agency , .portfolio{
+background-color: rgba(40, 41, 62, 1);
+color: rgba(255, 255, 255, 1);
+}
+
+
+/* navigation */
+nav{
+    height: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > #menu-logo{
+    display: none;
+}
+nav > ul{
+    display: flex;
+    gap: 4rem;
+}
+nav  li {
+    list-style: none;
+    
+}
+ .white-cap-text{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+/* hero-container */
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    padding: 5rem;
+}
+.hero-image-container{
+    padding: 1rem;
+}
+/* hero image  */
+
+.hero-pic {
+    background-image: url("../asserts/hero-pic.png");
+    background-size: cover;
+    height: 601px;
+    width: 570px;
+    
+}
+/* hero text */
+.hero-text{
+   padding: 1rem 5rem ;
+}
+
+
+.h1-white-style-text{
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    position: relative;
+    z-index: 2;
+
+}
+.hero-text > p{
+    margin-top: 2rem;
+}
+.back-star{
+    background-image: url("../asserts/Star.png");
+    background-size: cover;
+    z-index: 1;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    transform: translate(18rem,-16.5rem);
+}
+
+
+
+.hero-btns{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.testimonial{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.testimonial img{
+    height: 48px;
+    width: 48px;
+}
+
