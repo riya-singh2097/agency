@@ -18,7 +18,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.faq-question-wrapper:nth-child(1){
+      background-color: white;
+    }
 .faq-question-wrapper  .up-down-btn{
     width: 32px;
     height: 32px;
